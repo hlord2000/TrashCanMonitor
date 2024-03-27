@@ -1,0 +1,25 @@
+&uart0 {
+    status = "disabled";
+};
+
+&adxl372 {
+    status = "disabled";
+};
+
+&bme680 {
+    status = "disabled";
+};
+
+&bh1749 {
+    status = "disabled";
+};
+
+&adxl362 {
+    status = "okay";
+    autosleep;
+    wakeup-source;
+};
+
+&spi3 {
+    status = "okay";
+};
